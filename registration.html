@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <!-- Connect your existing CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            ⚓ <span>Marine Engineering Student</span>
+        </div>
+
+        <nav> <div>
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Courses.html">Courses</a>
+            <a href="registration.html" class="active">Registration</a>
+            <a href="Socials.html">Social</a>
+            </div> 
+            
+            <div class="home-social">
+                <a href="https://www.Facebook.com/WisdomGodwin">f</a>
+                <a href="https://x.com/wisdomgodwin695">𝕏</a>
+            </div>
+        
+
+
+        </nav>
+    </header>
+
+
+    <!-- Registration Section -->
+    <main class="registration-page">
+
+        <section class="registration-card">
+
+            <div class="section-line"></div>
+
+            <h1>Student <span>Registration</span></h1>
+
+            <p class="intro">
+                Fill in the form below to register as a student on my website.
+                <br>
+                Your information will be kept private and used for educational purposes only.
+            </p>
+
+
+            <form>
+
+                <div class="form-grid">
+
+                    <!-- Full Name -->
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Enter your full name"
+                            required>
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            required>
+                    </div>
+
+
+                    <!-- Age -->
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input 
+                            type="number"
+                            id="age"
+                            name="age"
+                            placeholder="Enter your age"
+                            required>
+                    </div>
+
+
+                    <!-- Date of Birth -->
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input 
+                            type="date"
+                            id="dob"
+                            name="dob"
+                            required>
+                    </div>
+
+
+                    <!-- Gender -->
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+
+                        <select id="gender" name="gender" required>
+                            <option value="">Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+
+                    <!-- Password -->
+                    <div class="form-group">
+                        <label for="password">Password</label>
+
+                        <input 
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            required>
+                    </div>
+
+                </div>
+
+
+                <!-- Terms -->
+                <div class="terms">
+                    <input type="checkbox" id="terms" required>
+
+                    <label for="terms">
+                        I agree to the
+                        <a href="#">terms and conditions</a>
+                    </label>
+                </div>
+
+
+                <!-- Message -->
+                <div class="form-group message-group">
+
+                    <label for="message">
+                        Message <span>(Optional)</span>
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Enter your message..."></textarea>
+
+                </div>
+
+
+                <!-- Submit -->
+                <button type="submit" class="submit-btn">
+                    ➤ &nbsp; Submit
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            ⚓
+        </div>
+
+        <div>
+            <h3>Marine Engineering Student</h3>
+            <p>Building a brighter future in the maritime industry.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Courses.html">Courses</a>
+            <a href="registration.html">Registration</a>
+            <a href="Socials.html">Social</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Marine Engineering Student. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
